@@ -1,0 +1,92 @@
+[
+  {
+    "question": "Who founded Ahmedabad in 1411?",
+    "answer": "Sultan Ahmed Shah (Ahmad Shah I).",
+    "expected_source": "Ahmedabad - Wikipedia.pdf",
+    "expected_location": {
+      "type": "pdf",
+      "page": 2
+    }
+  },
+  {
+    "question": "What is the population of Ahmedabad according to the 2011 census?",
+    "answer": "5,570,585",
+    "expected_source": "Ahmedabad - Wikipedia.pdf",
+    "expected_location": {
+      "type": "pdf",
+      "page": 1
+    }
+  },
+  {
+    "question": "On what river does the city of Ahmedabad lie?",
+    "answer": "Sabarmati River.",
+    "expected_source": "Ahmedabad - Wikipedia.pdf",
+    "expected_location": {
+      "type": "pdf",
+      "page": 1
+    }
+  },
+  {
+    "question": "What is the fleet size of the Gujarat State Road Transport Corporation?",
+    "answer": "8,322 buses (or 8,703 buses).",
+    "expected_source": "Gujarat State Road Transport Corporation - Wikipedia.pdf",
+    "expected_location": {
+      "type": "pdf",
+      "page": 1
+    }
+  },
+  {
+    "question": "When was the Gujarat State Road Transport Corporation (GSRTC) founded?",
+    "answer": "1 May 1960.",
+    "expected_source": "Gujarat State Road Transport Corporation - Wikipedia.pdf",
+    "expected_location": {
+      "type": "pdf",
+      "page": 1
+    }
+  },
+  {
+    "question": "What is the general idea of Query2Box in knowledge graph reasoning?",
+    "answer": "Embed query into a hyper-rectangle (box) in the Euclidean space where answer nodes are enclosed in the box.",
+    "expected_source": "11-reasoning.pptx",
+    "expected_location": {
+      "type": "pptx",
+      "slide": 21
+    }
+  },
+  {
+    "question": "What was released on October 31 according to the announcements slide?",
+    "answer": "Homework 3 was released.",
+    "expected_source": "11-reasoning.pptx",
+    "expected_location": {
+      "type": "pptx",
+      "slide": 2
+    }
+  },
+  {
+    "question": "What are AND-OR queries also called in knowledge graph reasoning?",
+    "answer": "Existential Positive First-order (EPFO) queries.",
+    "expected_source": "11-reasoning.pptx",
+    "expected_location": {
+      "type": "pptx",
+      "slide": 53
+    }
+  },
+  {
+    "question": "Where is the GSRTC headquarters or central office located?",
+    "answer": "Ranip, Ahmedabad.",
+    "expected_sources": [
+      "Gujarat State Road Transport Corporation - Wikipedia.pdf",
+      "Ahmedabad - Wikipedia.pdf"
+    ],
+    "expected_type": "cross-source"
+  },
+  {
+    "question": "What is the role of Ranip in Ahmedabad's public transportation network?",
+    "answer": "Ranip acts as a key public transportation hub, including the location of the Ranip Bus Port and GSRTC headquarters.",
+    "expected_sources": [
+      "Gujarat State Road Transport Corporation - Wikipedia.pdf",
+      "Ahmedabad - Wikipedia.pdf"
+    ],
+    "expected_type": "cross-source"
+  }
+]
